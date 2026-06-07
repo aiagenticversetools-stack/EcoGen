@@ -1,0 +1,13 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#1A2E22"/>
+  <circle cx="290" cy="240" r="280" fill="#274A35" opacity="0.85"/>
+  <circle cx="1290" cy="220" r="360" fill="#A87945" opacity="0.28"/>
+  <circle cx="1120" cy="880" r="420" fill="#E8DDCB" opacity="0.18"/>
+  <path d="M0 846C176 726 348 698 516 762C710 836 872 828 1048 706C1244 570 1432 536 1600 610V1200H0V846Z" fill="#274A35"/>
+  <path d="M0 940C204 826 390 806 560 880C764 968 954 938 1132 820C1328 690 1482 676 1600 730V1200H0V940Z" fill="#E8DDCB" opacity="0.58"/>
+  <path d="M686 458C746 316 876 248 1032 256C950 320 918 414 936 540C836 492 752 464 686 458Z" fill="#F7F5F0" opacity="0.72"/>
+  <path d="M660 486C588 362 458 308 304 334C396 388 444 476 446 604C536 542 608 502 660 486Z" fill="#F7F5F0" opacity="0.45"/>
+  <path d="M728 550C766 466 852 424 952 432C898 472 876 530 888 606C822 578 770 560 728 550Z" fill="#A87945" opacity="0.65"/>
+  <text x="120" y="1040" fill="#F7F5F0" font-family="Georgia, serif" font-size="92" letter-spacing="2">EcoGen Retreat</text>
+  <text x="126" y="1110" fill="#E8DDCB" font-family="Arial, sans-serif" font-size="28" letter-spacing="10">BE A BUTTERFLY IN OUR PARADISE!</text>
+</svg>

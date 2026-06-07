@@ -1,0 +1,28 @@
+export const imageAssetMap: Record<string, string> = {
+  'entrance-door.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_9-3a70e845-bad2-4488-abf0-d5b0f9fc9435.png',
+  'lounge-seating-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_8-1b855a7e-c47e-436d-af23-e276d23120cc.png',
+  'night-exterior.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_10-60478f7a-5b23-4851-8501-7534c6e4b65e.png',
+  'hero-retreat-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_image-85b80d9c-133b-4aa8-a851-ea3a03dfb004.png',
+  'hero-retreat-daytime.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_image-1687207b-7a7b-422c-91bb-f9bf389e97b0.png',
+  'resort-entrance.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_2-e95e13fb-42da-4572-996f-ab297678b3d0.png',
+  'front-view-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_1-7961fcd2-4b54-4e2a-ac17-8826c781216b.png',
+  'glass-threshold.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_3-910037f5-b57c-4d4d-b222-851824e7a6d2.png',
+  'side-walk-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_4-1a1534a9-7dc3-4c43-8ab3-01f956d688ab.png',
+  'bedroom-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_6-f2e8b00e-d82d-4bfc-8a3e-d56070833970.png',
+  'swimming-pool-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_5-e3e16a50-b1f6-4d56-9810-8dd1b7dc5ee9.png',
+  'dinning-hall-photo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_7-e93b3d19-1093-412a-adc7-586bc5d94b2d.png',
+  'ecogen-logo.png':
+    'c__Users_PC_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images_logo-adcaf6a8-1909-4dee-9208-20f912856299.png'
+};

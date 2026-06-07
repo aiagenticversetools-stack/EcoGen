@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --site-header-height: 76px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f7f5f0;
+  color: #242424;
+  font-family: var(--font-body), 'Libre Baskerville', serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(168, 121, 69, 0.28);
+  color: #1a2e22;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(168, 121, 69, 0.82);
+  outline-offset: 4px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --site-header-height: 84px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-site px-4 tablet:px-8 desktop:px-10;
+  }
+
+  .content-container {
+    @apply mx-auto w-full max-w-content;
+  }
+
+  .section-padding {
+    @apply py-16 tablet:py-section-tablet laptop:py-section;
+  }
+
+  .glass-panel {
+    @apply border border-white/45 bg-white/75 shadow-luxury backdrop-blur-2xl;
+  }
+
+  .eyebrow {
+    @apply font-accent text-xs font-semibold uppercase tracking-[0.28em] text-copper;
+  }
+
+  .form-input {
+    @apply w-full rounded-2xl border border-forest/15 bg-stone px-5 py-4 text-base normal-case tracking-normal text-charcoal outline-none transition duration-300 placeholder:text-charcoal/40 hover:border-forest/30 focus:border-copper focus:bg-white focus:ring-4 focus:ring-copper/15;
+  }
+}

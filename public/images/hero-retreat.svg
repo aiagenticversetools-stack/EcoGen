@@ -1,0 +1,9 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#1A2E22"/>
+  <circle cx="1240" cy="210" r="340" fill="#A87945" opacity=".32"/>
+  <circle cx="260" cy="220" r="300" fill="#274A35" opacity=".9"/>
+  <path d="M0 760C210 640 390 630 570 720C760 815 940 790 1135 650C1330 510 1485 525 1600 590V1200H0V760Z" fill="#274A35"/>
+  <path d="M0 930C220 815 410 815 600 900C780 980 990 940 1180 815C1360 695 1500 690 1600 735V1200H0V930Z" fill="#E8DDCB" opacity=".62"/>
+  <path d="M690 455C760 305 900 242 1050 260C950 325 920 420 940 548C835 493 754 465 690 455Z" fill="#F7F5F0" opacity=".72"/>
+  <text x="120" y="1030" fill="#F7F5F0" font-family="Georgia,serif" font-size="96">EcoGen Retreat</text>
+</svg>

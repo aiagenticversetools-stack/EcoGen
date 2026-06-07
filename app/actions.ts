@@ -14,7 +14,7 @@ export async function submitContactAction(input: ContactInput) {
   const data = contactSchema.parse(input);
 
   if (process.env.DATABASE_URL) {
-    const prisma = getPrisma();
+    const prisma = await getPrisma();
     if (prisma) {
       await prisma.contactSubmission.create({ data });
     }
@@ -27,7 +27,7 @@ export async function submitBookingAction(input: BookingInput) {
   const data = bookingSchema.parse(input);
 
   if (process.env.DATABASE_URL) {
-    const prisma = getPrisma();
+    const prisma = await getPrisma();
     if (prisma) {
       await prisma.bookingSubmission.create({ data });
     }
@@ -40,7 +40,7 @@ export async function submitNewsletterAction(input: NewsletterInput) {
   const data = newsletterSchema.parse(input);
 
   if (process.env.DATABASE_URL) {
-    const prisma = getPrisma();
+    const prisma = await getPrisma();
     if (prisma) {
       await prisma.newsletterSubscription.upsert({
         where: { email: data.email },

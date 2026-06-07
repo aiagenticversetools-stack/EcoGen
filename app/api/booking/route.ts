@@ -12,7 +12,7 @@ export async function POST(request: Request) {
   }
 
   if (process.env.DATABASE_URL) {
-    const prisma = getPrisma();
+    const prisma = await getPrisma();
     if (prisma) {
       await prisma.bookingSubmission.create({ data: parsed.data });
     }

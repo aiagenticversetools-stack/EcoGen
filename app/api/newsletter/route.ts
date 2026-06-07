@@ -11,7 +11,7 @@ export async function POST(request: Request) {
   }
 
   if (process.env.DATABASE_URL) {
-    const prisma = getPrisma();
+    const prisma = await getPrisma();
     if (prisma) {
       await prisma.newsletterSubscription.upsert({
         where: { email: parsed.data.email },
